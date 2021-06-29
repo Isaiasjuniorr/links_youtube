@@ -1,0 +1,47 @@
+package com.javatpoint.bean;
+
+public class Links_youtube {
+	
+	private int ID_link;
+	private int ID_estudemais;
+	private String imagem;
+	private String nome;
+	private String link;
+	
+
+	public int getID_link() {
+		return ID_link;
+	}
+	
+	public void setID_link(int ID_link) {
+		this.ID_link = ID_link;
+	}
+	public int getID_estudemais() {
+		return ID_estudemais;
+	}
+		
+	public void setID_estudemais(int ID_estudemais) {
+		this.ID_estudemais = ID_estudemais;
+	}
+	
+	public String getimagem() {
+		return imagem ;
+	}
+	public void setimagem(String imagem) {
+		this.imagem = imagem;
+	}
+	public String getnome() {
+		return nome;
+	}
+	public void setnome(String nome) {
+		this.nome = nome;
+	}
+	public String link() {
+		return link;
+	}
+	public void setlink(String link) {
+		this.link = link;
+	}
+
+}
+
